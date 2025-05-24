@@ -1,0 +1,366 @@
+﻿<Page x:Class="StockManagementApp.pages.ProductsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockManagementApp.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="ProductsPage"
+      FlowDirection="RightToLeft"
+      FontFamily="pack://application:,,,/fonts/29azer">
+
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="المنتجات" FontSize="24" FontWeight="Bold" Foreground="#2D3748"/>
+                <TextBlock Text="إدارة المنتجات وتفاصيلها" 
+                           Foreground="#6E7A8A" Margin="0,5,0,0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <Button Background="#3182CE" Width="40" Height="40" BorderThickness="0" Margin="15,0,0,0">
+                    <TextBlock Text="&#xE710;" FontFamily="Segoe MDL2 Assets" Foreground="White"/>
+                </Button>
+
+                <Border Background="White" CornerRadius="8" Width="250" Height="40"
+                        BorderBrush="#E2E8F0" BorderThickness="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Column="0" BorderThickness="0" Margin="0,0,10,0" 
+                                 VerticalAlignment="Center" Background="Transparent"
+                                 Foreground="#2D3748" FontSize="14"
+                                 Text="بحث عن منتج..."/>
+                        <TextBlock Grid.Column="1" Text="&#xE721;" FontFamily="Segoe MDL2 Assets" Foreground="#6E7A8A" 
+                                   Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <!-- Products Content -->
+        <Grid Grid.Row="1" Margin="0,20,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Filter and Actions -->
+            <Grid Grid.Row="0" Margin="0,0,0,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Horizontal">
+                    <Border Background="White" CornerRadius="8" BorderBrush="#E2E8F0" BorderThickness="1" Padding="10,5">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="تصنيف:" VerticalAlignment="Center" Foreground="#4A5568" Margin="0,0,5,0"/>
+                            <ComboBox Width="120" BorderThickness="0" SelectedIndex="0">
+                                <ComboBoxItem Content="الكل"/>
+                                <ComboBoxItem Content="إلكترونيات"/>
+                                <ComboBoxItem Content="أثاث"/>
+                                <ComboBoxItem Content="ملابس"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </Border>
+
+                    <Border Background="White" CornerRadius="8" BorderBrush="#E2E8F0" BorderThickness="1" Padding="10,5" Margin="10,0,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="الحالة:" VerticalAlignment="Center" Foreground="#4A5568" Margin="0,0,5,0"/>
+                            <ComboBox Width="120" BorderThickness="0" SelectedIndex="0">
+                                <ComboBoxItem Content="الكل"/>
+                                <ComboBoxItem Content="متوفر"/>
+                                <ComboBoxItem Content="منخفض المخزون"/>
+                                <ComboBoxItem Content="غير متوفر"/>
+                            </ComboBox>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <Button Background="#3182CE" Foreground="White" Padding="15,8" BorderThickness="0" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="&#xE710;" FontFamily="Segoe MDL2 Assets" VerticalAlignment="Center"/>
+                            <TextBlock Text="إضافة منتج" Margin="8,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </Grid>
+
+            <!-- Products Table -->
+            <Border Grid.Row="1" Style="{StaticResource DashboardCardStyle}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Table Header -->
+                    <Grid Grid.Row="0" Background="#F7FAFC">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition Width="120"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="#" FontWeight="SemiBold" Foreground="#4A5568"/>
+                        <TextBlock Grid.Column="1" Text="اسم المنتج" FontWeight="SemiBold" Foreground="#4A5568"/>
+                        <TextBlock Grid.Column="2" Text="التصنيف" FontWeight="SemiBold" Foreground="#4A5568"/>
+                        <TextBlock Grid.Column="3" Text="السعر" FontWeight="SemiBold" Foreground="#4A5568"/>
+                        <TextBlock Grid.Column="4" Text="المخزون" FontWeight="SemiBold" Foreground="#4A5568"/>
+                        <TextBlock Grid.Column="5" Text="الإجراءات" FontWeight="SemiBold" Foreground="#4A5568"/>
+                    </Grid>
+
+                    <!-- Table Content -->
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+                            <!-- Product Row 1 -->
+                            <Grid  >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Text="1" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                    <Border Width="40" Height="40" Background="#EBF8FF" CornerRadius="8">
+                                        <TextBlock Text="&#xE7FC;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                                        <TextBlock Text="لابتوب ديل XPS 15" FontWeight="SemiBold" Foreground="#2D3748"/>
+                                        <TextBlock Text="SKU: PRD-001" FontSize="12" Foreground="#6E7A8A"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Grid.Column="2" Text="إلكترونيات" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <TextBlock Grid.Column="3" Text="5,999 ر.س" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Border Background="#F0FFF4" CornerRadius="4" Padding="8,2">
+                                        <TextBlock Text="45 قطعة" Foreground="#38A169" FontSize="12"/>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE70F;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Product Row 2 -->
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Text="2" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                    <Border Width="40" Height="40" Background="#EBF8FF" CornerRadius="8">
+                                        <TextBlock Text="&#xE7FC;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                                        <TextBlock Text="ماوس لاسلكي" FontWeight="SemiBold" Foreground="#2D3748"/>
+                                        <TextBlock Text="SKU: PRD-002" FontSize="12" Foreground="#6E7A8A"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Grid.Column="2" Text="إلكترونيات" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <TextBlock Grid.Column="3" Text="149 ر.س" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Border Background="#FFF5F5" CornerRadius="4" Padding="8,2">
+                                        <TextBlock Text="5 قطع" Foreground="#E53E3E" FontSize="12"/>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE70F;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Product Row 3 -->
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Text="3" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                    <Border Width="40" Height="40" Background="#EBF8FF" CornerRadius="8">
+                                        <TextBlock Text="&#xE7FC;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                                        <TextBlock Text="كرسي مكتبي" FontWeight="SemiBold" Foreground="#2D3748"/>
+                                        <TextBlock Text="SKU: PRD-003" FontSize="12" Foreground="#6E7A8A"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Grid.Column="2" Text="أثاث" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <TextBlock Grid.Column="3" Text="799 ر.س" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Border Background="#F0FFF4" CornerRadius="4" Padding="8,2">
+                                        <TextBlock Text="28 قطعة" Foreground="#38A169" FontSize="12"/>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE70F;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Product Row 4 -->
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Text="4" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                    <Border Width="40" Height="40" Background="#EBF8FF" CornerRadius="8">
+                                        <TextBlock Text="&#xE7FC;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                                        <TextBlock Text="شاشة عرض 27 بوصة" FontWeight="SemiBold" Foreground="#2D3748"/>
+                                        <TextBlock Text="SKU: PRD-004" FontSize="12" Foreground="#6E7A8A"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Grid.Column="2" Text="إلكترونيات" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <TextBlock Grid.Column="3" Text="1,299 ر.س" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Border Background="#F0FFF4" CornerRadius="4" Padding="8,2">
+                                        <TextBlock Text="15 قطعة" Foreground="#38A169" FontSize="12"/>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE70F;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+
+                            <!-- Product Row 5 -->
+                            <Grid >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="50"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="120"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBlock Grid.Column="0" Text="5" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="1" Orientation="Horizontal">
+                                    <Border Width="40" Height="40" Background="#EBF8FF" CornerRadius="8">
+                                        <TextBlock Text="&#xE7FC;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
+                                                   HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                    <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                                        <TextBlock Text="لوحة مفاتيح ميكانيكية" FontWeight="SemiBold" Foreground="#2D3748"/>
+                                        <TextBlock Text="SKU: PRD-005" FontSize="12" Foreground="#6E7A8A"/>
+                                    </StackPanel>
+                                </StackPanel>
+                                <TextBlock Grid.Column="2" Text="إلكترونيات" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <TextBlock Grid.Column="3" Text="349 ر.س" VerticalAlignment="Center" Foreground="#4A5568"/>
+                                <StackPanel Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center">
+                                    <Border Background="#F0FFF4" CornerRadius="4" Padding="8,2">
+                                        <TextBlock Text="32 قطعة" Foreground="#38A169" FontSize="12"/>
+                                    </Border>
+                                </StackPanel>
+                                <StackPanel Grid.Column="5" Orientation="Horizontal">
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE70F;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                    <Button Background="Transparent" BorderThickness="0" Padding="5">
+                                        <TextBlock Text="&#xE74D;" FontFamily="Segoe MDL2 Assets" Foreground="#4A5568"/>
+                                    </Button>
+                                </StackPanel>
+                            </Grid>
+                        </StackPanel>
+                    </ScrollViewer>
+
+                    <!-- Pagination -->
+                    <Grid Background="#F7FAFC">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="عرض 1-5 من 24 منتج" Foreground="#6E7A8A" VerticalAlignment="Center"/>
+
+                        <StackPanel Grid.Column="2" Orientation="Horizontal">
+                            <Button Background="White" BorderBrush="#E2E8F0" BorderThickness="1" Width="32" Height="32" Margin="0,0,5,0">
+                                <TextBlock Text="&#xE72B;" FontFamily="Segoe MDL2 Assets" Foreground="#6E7A8A"/>
+                            </Button>
+                            <Button Background="#3182CE" BorderThickness="0" Width="32" Height="32" Margin="0,0,5,0">
+                                <TextBlock Text="1" Foreground="White"/>
+                            </Button>
+                            <Button Background="White" BorderBrush="#E2E8F0" BorderThickness="1" Width="32" Height="32" Margin="0,0,5,0">
+                                <TextBlock Text="2" Foreground="#6E7A8A"/>
+                            </Button>
+                            <Button Background="White" BorderBrush="#E2E8F0" BorderThickness="1" Width="32" Height="32" Margin="0,0,5,0">
+                                <TextBlock Text="3" Foreground="#6E7A8A"/>
+                            </Button>
+                            <Button Background="White" BorderBrush="#E2E8F0" BorderThickness="1" Width="32" Height="32">
+                                <TextBlock Text="&#xE72A;" FontFamily="Segoe MDL2 Assets" Foreground="#6E7A8A"/>
+                            </Button>
+                        </StackPanel>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Grid>
+</Page>

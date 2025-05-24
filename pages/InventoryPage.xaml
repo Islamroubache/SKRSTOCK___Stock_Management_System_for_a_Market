@@ -1,0 +1,71 @@
+﻿<Page x:Class="StockManagementApp.pages.InventoryPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:StockManagementApp.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="InventoryPage"
+      FlowDirection="RightToLeft"
+      FontFamily="pack://application:,,,/fonts/29azer">
+
+    <Grid Background="white">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="المخزون" FontSize="24" FontWeight="Bold" Foreground="#2D3748"/>
+                <TextBlock Text="إدارة مخزون المنتجات وتتبع الكميات" 
+                           Foreground="#6E7A8A" Margin="0,5,0,0"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                <Button Background="#3182CE" Width="40" Height="40" BorderThickness="0" Margin="15,0,0,0">
+                    <TextBlock Text="&#xE710;" FontFamily="Segoe MDL2 Assets" Foreground="White"/>
+                </Button>
+
+                <Border Background="White" CornerRadius="8" Width="250" Height="40"
+                        BorderBrush="#E2E8F0" BorderThickness="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Grid.Column="0" BorderThickness="0" Margin="0,0,10,0" 
+                                 VerticalAlignment="Center" Background="Transparent"
+                                 Foreground="#2D3748" FontSize="14"
+                                 Text="بحث في المخزون..."/>
+                        <TextBlock Grid.Column="1" Text="&#xE721;" FontFamily="Segoe MDL2 Assets" Foreground="#6E7A8A" 
+                                   Margin="0,0,15,0" VerticalAlignment="Center"/>
+                    </Grid>
+                </Border>
+            </StackPanel>
+        </Grid>
+
+        <!-- Inventory Content -->
+        <Border Grid.Row="1" Style="{StaticResource DashboardCardStyle}" Margin="0,20,0,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="قائمة المخزون" Style="{StaticResource CardTitleStyle}"/>
+
+                <TextBlock Grid.Row="1" Text="محتوى صفحة المخزون" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center"
+                           FontSize="18" Foreground="#6E7A8A"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
