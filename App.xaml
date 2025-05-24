@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:StockManagementApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <!-- Styles for the application -->
+        <!-- Enhanced Menu Button Style with Modern Effects -->
         <Style x:Key="MenuButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="Transparent"/>
             <Setter Property="Foreground" Value="White"/>
@@ -14,40 +14,206 @@
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="HorizontalContentAlignment" Value="Left"/>
             <Setter Property="Padding" Value="20,0,0,0"/>
+            <Setter Property="Cursor" Value="Hand"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
+                        <Border x:Name="border" 
+                                Background="{TemplateBinding Background}" 
                                 BorderBrush="{TemplateBinding BorderBrush}" 
                                 BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="0">
+                                CornerRadius="15"
+                                Margin="8,2,8,2">
+                            <Border.Effect>
+                                <DropShadowEffect x:Name="shadowEffect" 
+                                                  Color="Black" 
+                                                  Opacity="0" 
+                                                  Direction="270" 
+                                                  ShadowDepth="2" 
+                                                  BlurRadius="8"/>
+                            </Border.Effect>
                             <ContentPresenter VerticalAlignment="Center" 
                                               HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
                                               Margin="{TemplateBinding Padding}"/>
                         </Border>
                         <ControlTemplate.Triggers>
+                            <!-- Hover Effect -->
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="BorderThickness" Value="8,0,0,0"/>
-                                <Setter Property="BorderBrush" Value="#2DB1A9"/>
-                                <Setter Property="Background" Value="#ffffff"/>
-                                <Setter Property="Foreground" Value="#2DB1A9"/>
-                            
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="border" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="#ffffff" Duration="0:0:0.3"/>
+                                            <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
+                                                            To="#2DB1A9" Duration="0:0:0.3"/>
+                                            <ThicknessAnimation Storyboard.TargetName="border" 
+                                                                Storyboard.TargetProperty="BorderThickness" 
+                                                                To="0,0,6,0" Duration="0:0:0.3"/>
+                                            <ColorAnimation Storyboard.TargetName="border" 
+                                                            Storyboard.TargetProperty="(Border.BorderBrush).(SolidColorBrush.Color)" 
+                                                            To="#2DB1A9" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="shadowEffect" 
+                                                             Storyboard.TargetProperty="Opacity" 
+                                                             To="0.3" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                             To="1.02" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                             To="1.02" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="border" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="Transparent" Duration="0:0:0.3"/>
+                                            <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
+                                                            To="White" Duration="0:0:0.3"/>
+                                            <ThicknessAnimation Storyboard.TargetName="border" 
+                                                                Storyboard.TargetProperty="BorderThickness" 
+                                                                To="0" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="shadowEffect" 
+                                                             Storyboard.TargetProperty="Opacity" 
+                                                             To="0" Duration="0:0:0.3"/>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                             To="1.0" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                             To="1.0" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <!-- Click Effect -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                             To="0.95" Duration="0:0:0.1"/>
+                                            <DoubleAnimation Storyboard.TargetName="border" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                             To="0.95" Duration="0:0:0.1"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
                             </Trigger>
                         </ControlTemplate.Triggers>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
         </Style>
 
+        <!-- Enhanced Active Menu Button Style -->
         <Style x:Key="ActiveMenuButtonStyle" TargetType="Button" BasedOn="{StaticResource MenuButtonStyle}">
-            <Setter Property="Background" Value="#ffffff"/>
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                        <GradientStop Color="#ffffff" Offset="0"/>
+                        <GradientStop Color="#f8f9fa" Offset="1"/>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
             <Setter Property="Foreground" Value="#2DB1A9"/>
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="BorderThickness" Value="8,0,0,0"/>
+            <Setter Property="BorderThickness" Value="0,0,6,0"/>
             <Setter Property="BorderBrush" Value="#2DB1A9"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="activeBorder" 
+                                Background="{TemplateBinding Background}" 
+                                BorderBrush="{TemplateBinding BorderBrush}" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                CornerRadius="15"
+                                Margin="8,2,8,2">
+                            <Border.Effect>
+                                <DropShadowEffect Color="#2DB1A9" 
+                                                  Opacity="0.4" 
+                                                  Direction="270" 
+                                                  ShadowDepth="3" 
+                                                  BlurRadius="12"/>
+                            </Border.Effect>
+                            <!-- Active Indicator -->
+                            <Grid>
+                                <Rectangle x:Name="activeIndicator" 
+                                           Fill="#2DB1A9" 
+                                           Width="4" 
+                                           HorizontalAlignment="Left" 
+                                           Margin="4,8,0,8"
+                                           RadiusX="3" 
+                                           RadiusY="3">
+                                    <Rectangle.RenderTransform>
+                                        <ScaleTransform ScaleY="1"/>
+                                    </Rectangle.RenderTransform>
+                                </Rectangle>
+                                <ContentPresenter VerticalAlignment="Center" 
+                                                  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                                                  Margin="{TemplateBinding Padding}"/>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <EventTrigger RoutedEvent="Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <DoubleAnimation Storyboard.TargetName="activeIndicator" 
+                                                         Storyboard.TargetProperty="(Rectangle.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                         From="0" To="1" Duration="0:0:0.5"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="activeBorder" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                             To="1.02" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="activeBorder" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                             To="1.02" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="activeBorder" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                             To="1.0" Duration="0:0:0.2"/>
+                                            <DoubleAnimation Storyboard.TargetName="activeBorder" 
+                                                             Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                             To="1.0" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
         </Style>
 
+        <!-- Keep existing styles unchanged -->
         <Style x:Key="DashboardCardStyle" TargetType="Border">
             <Setter Property="Background" Value="White"/>
             <Setter Property="CornerRadius" Value="8"/>
@@ -55,13 +221,13 @@
             <Setter Property="Margin" Value="10"/>
             <Setter Property="Effect">
                 <Setter.Value>
-                    <DropShadowEffect BlurRadius="15" ShadowDepth="1" Opacity="0.1" Color="#000000"/>
+                    <DropShadowEffect BlurRadius="15" ShadowDepth="1.5" Opacity="0.3" Color="#000000"/>
                 </Setter.Value>
             </Setter>
         </Style>
 
         <Style x:Key="CardTitleStyle" TargetType="TextBlock">
-            <Setter Property="FontSize" Value="2"/>
+            <Setter Property="FontSize" Value="20"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Foreground" Value="#2D3748"/>
             <Setter Property="Margin" Value="0,0,0,10"/>
@@ -81,8 +247,107 @@
             <Setter Property="Margin" Value="0,5,0,0"/>
             <Setter Property="FontFamily" Value="pack://application:,,,/fonts/29azer"/>
         </Style>
+        <!-- New Dashboard Card Button Style -->
+        <Style x:Key="DashboardCardButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="cardBorder" Style="{StaticResource DashboardCardStyle}">
+                            <Border.RenderTransform>
+                                <ScaleTransform ScaleX="1" ScaleY="1"/>
+                            </Border.RenderTransform>
+                            <ContentPresenter/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <!-- Hover Effect -->
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <!-- Reduced Scale Animation -->
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                     To="1.02" Duration="0:0:0.15"/>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                     To="1.02" Duration="0:0:0.15"/>
+                                            <!-- Subtle Shadow Enhancement -->
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.Effect).(DropShadowEffect.BlurRadius)" 
+                                                     To="18" Duration="0:0:0.15"/>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.Effect).(DropShadowEffect.Opacity)" 
+                                                     To="0.35" Duration="0:0:0.15"/>
+                                            <!-- Light Blue Background Color Change -->
+                                            <ColorAnimation Storyboard.TargetName="cardBorder" 
+                                                    Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                    To="#F0F9FF" Duration="0:0:0.15"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <!-- Return to Original Scale -->
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                     To="1.0" Duration="0:0:0.15"/>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                     To="1.0" Duration="0:0:0.15"/>
+                                            <!-- Return to Original Shadow -->
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.Effect).(DropShadowEffect.BlurRadius)" 
+                                                     To="15" Duration="0:0:0.15"/>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.Effect).(DropShadowEffect.Opacity)" 
+                                                     To="0.3" Duration="0:0:0.15"/>
+                                            <!-- Return to Original Background -->
+                                            <ColorAnimation Storyboard.TargetName="cardBorder" 
+                                                    Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                    To="White" Duration="0:0:0.15"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <!-- Click Effect -->
+                            <Trigger Property="IsPressed" Value="True">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleX)" 
+                                                     To="0.99" Duration="0:0:0.08"/>
+                                            <DoubleAnimation Storyboard.TargetName="cardBorder" 
+                                                     Storyboard.TargetProperty="(Border.RenderTransform).(ScaleTransform.ScaleY)" 
+                                                     To="0.99" Duration="0:0:0.08"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                            </Trigger>
+                            <!-- Set Initial Background Color -->
+                            <EventTrigger RoutedEvent="Loaded">
+                                <BeginStoryboard>
+                                    <Storyboard>
+                                        <ColorAnimation Storyboard.TargetName="cardBorder" 
+                                                Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                To="#Ffffff" Duration="0:0:0"/>
+                                    </Storyboard>
+                                </BeginStoryboard>
+                            </EventTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="RenderTransformOrigin" Value="0.5,0.5"/>
+        </Style>
 
-        <!-- Window Control Button Style -->
+        <!-- Enhanced Window Control Button Style -->
         <Style x:Key="WindowControlButtonStyle" TargetType="Button">
             <Setter Property="Width" Value="30"/>
             <Setter Property="Height" Value="30"/>
@@ -94,36 +359,58 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border Background="{TemplateBinding Background}" 
+                        <Border x:Name="controlBorder" 
+                                Background="{TemplateBinding Background}" 
                                 BorderBrush="{TemplateBinding BorderBrush}" 
                                 BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="4">
+                                CornerRadius="6">
                             <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
                             <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#E8EDF5"/>
-                                <Setter Property="Foreground" Value="#2D3748"/>
-                            </Trigger>
-                            <Trigger Property="Tag" Value="CloseButton">
-                                <Setter Property="Foreground" Value="#6E7A8A"/>
                                 <Trigger.EnterActions>
                                     <BeginStoryboard>
                                         <Storyboard>
-                                            <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
-                                                            To="#FEE2E2" Duration="0:0:0.1"/>
+                                            <ColorAnimation Storyboard.TargetName="controlBorder" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="#E8EDF5" Duration="0:0:0.2"/>
                                             <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
-                                                            To="#E53E3E" Duration="0:0:0.1"/>
+                                                            To="#2D3748" Duration="0:0:0.2"/>
                                         </Storyboard>
                                     </BeginStoryboard>
                                 </Trigger.EnterActions>
                                 <Trigger.ExitActions>
                                     <BeginStoryboard>
                                         <Storyboard>
-                                            <ColorAnimation Storyboard.TargetProperty="(Button.Background).(SolidColorBrush.Color)" 
-                                                            To="Transparent" Duration="0:0:0.1"/>
+                                            <ColorAnimation Storyboard.TargetName="controlBorder" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="Transparent" Duration="0:0:0.2"/>
                                             <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
-                                                            To="#6E7A8A" Duration="0:0:0.1"/>
+                                                            To="#6E7A8A" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.ExitActions>
+                            </Trigger>
+                            <Trigger Property="Tag" Value="CloseButton">
+                                <Trigger.EnterActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="controlBorder" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="#FEE2E2" Duration="0:0:0.2"/>
+                                            <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
+                                                            To="#E53E3E" Duration="0:0:0.2"/>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </Trigger.EnterActions>
+                                <Trigger.ExitActions>
+                                    <BeginStoryboard>
+                                        <Storyboard>
+                                            <ColorAnimation Storyboard.TargetName="controlBorder" 
+                                                            Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" 
+                                                            To="Transparent" Duration="0:0:0.2"/>
+                                            <ColorAnimation Storyboard.TargetProperty="(Button.Foreground).(SolidColorBrush.Color)" 
+                                                            To="#6E7A8A" Duration="0:0:0.2"/>
                                         </Storyboard>
                                     </BeginStoryboard>
                                 </Trigger.ExitActions>

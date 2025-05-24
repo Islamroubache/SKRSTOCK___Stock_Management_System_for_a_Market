@@ -4,14 +4,16 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:StockManagementApp.pages"
-      mc:Ignorable="d" 
+      mc:Ignorable="d"  x:Name="Dashboard" 
       d:DesignHeight="600" d:DesignWidth="1000"
       Title="DashboardPage"
       FlowDirection="RightToLeft"
       FontFamily="pack://application:,,,/fonts/29azer"
       >
 
-    <Grid Background="White">
+
+    <Grid Background="#F8FfFf">
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
@@ -27,9 +29,9 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0">
-                <TextBlock Text="لوحة التحكم" FontSize="24" FontWeight="Bold" Foreground="#2D3748"/>
-                <TextBlock Text="مرحباً بعودتك، محمد! إليك ما يحدث في مخزونك اليوم." 
-                           Foreground="#6E7A8A" Margin="0,5,0,0"/>
+                <TextBlock Text="  الصفحة الرئيسية" FontSize="26"  Margin="0,8,0,0" FontWeight="Bold" Foreground="#2D3748"/>
+                <TextBlock Text="    مرحباً بعودتك !  إليك ما يحدث في مخزونك اليوم." 
+                           Foreground="#6E7A8A" Margin="0,5,0,0" FontSize="13" FontWeight="SemiBold"/>
             </StackPanel>
 
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
@@ -37,14 +39,14 @@
                     <TextBlock Text="&#xE710;" FontFamily="Segoe MDL2 Assets" Foreground="White"/>
                 </Button>
 
-                <Border Background="White" CornerRadius="8" Width="250" Height="40"
-                        BorderBrush="#E2E8F0" BorderThickness="1">
+                <Border Background="White" CornerRadius="0,8,8,0" Width="450" Height="40"
+                        BorderBrush="#E2E8F0" BorderThickness="1" Margin="0,0,10,0">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="Auto"/>
                         </Grid.ColumnDefinitions>
-                        <TextBox Grid.Column="0" BorderThickness="0" Margin="0,0,10,0" 
+                        <TextBox Grid.Column="0" BorderThickness="0" Margin="10,0,10,0" 
                                  VerticalAlignment="Center" Background="Transparent"
                                  Foreground="#2D3748" FontSize="14"
                                  Text="بحث في المخزون، الطلبات..."/>
@@ -331,7 +333,8 @@
             </Grid.ColumnDefinitions>
 
             <!-- Add Product -->
-            <Border Style="{StaticResource DashboardCardStyle}" Grid.Column="0" Cursor="Hand">
+
+            <Button Style="{StaticResource DashboardCardButtonStyle}" Grid.Column="0"  Click="AddProduct_Click" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -340,19 +343,19 @@
 
                     <Border Width="50" Height="50" Background="#EBF8FF" CornerRadius="8">
                         <TextBlock Text="&#xE710;" FontFamily="Segoe MDL2 Assets" Foreground="#3182CE" 
-                                   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                       FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
 
                     <StackPanel Grid.Row="1" Margin="0,15,0,0">
                         <TextBlock Text="إضافة منتج" FontWeight="SemiBold" Foreground="#2D3748" FontSize="16"/>
                         <TextBlock Text="إضافة منتج جديد إلى المخزون" Foreground="#6E7A8A" 
-                                   FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
+                       FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
                     </StackPanel>
                 </Grid>
-            </Border>
+            </Button>
 
             <!-- Create Order -->
-            <Border Style="{StaticResource DashboardCardStyle}" Grid.Column="1" Cursor="Hand">
+            <Button Style="{StaticResource DashboardCardButtonStyle}" Grid.Column="1" Click="CreateOrder_Click" >
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -361,19 +364,22 @@
 
                     <Border Width="50" Height="50" Background="#F0FFF4" CornerRadius="8">
                         <TextBlock Text="&#xE8A1;" FontFamily="Segoe MDL2 Assets" Foreground="#38A169" 
-                                   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+               FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
 
                     <StackPanel Grid.Row="1" Margin="0,15,0,0">
                         <TextBlock Text="إنشاء طلب" FontWeight="SemiBold" Foreground="#2D3748" FontSize="16"/>
                         <TextBlock Text="إنشاء طلب عميل جديد" Foreground="#6E7A8A" 
-                                   FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
+               FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
                     </StackPanel>
                 </Grid>
-            </Border>
+            </Button>
 
-            <!-- Generate Report -->
-            <Border Style="{StaticResource DashboardCardStyle}" Grid.Column="2" Cursor="Hand">
+
+
+
+            <!-- Manage clients-->
+            <Button Style="{StaticResource DashboardCardButtonStyle}" Grid.Column="2" Click="ManageClients_Click">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -382,19 +388,22 @@
 
                     <Border Width="50" Height="50" Background="#FFFAF0" CornerRadius="8">
                         <TextBlock Text="&#xE9D9;" FontFamily="Segoe MDL2 Assets" Foreground="#DD6B20" 
-                                   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                  FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
 
                     <StackPanel Grid.Row="1" Margin="0,15,0,0">
-                        <TextBlock Text="إنشاء تقرير" FontWeight="SemiBold" Foreground="#2D3748" FontSize="16"/>
-                        <TextBlock Text="إنشاء تقرير مخزون أو مبيعات" Foreground="#6E7A8A" 
-                                   FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
+                        <TextBlock Text="إدارة الزبائن" FontWeight="SemiBold" Foreground="#2D3748" FontSize="16"/>
+                        <TextBlock Text="عرض وتعديل بيانات الزبائن" Foreground="#6E7A8A" 
+                  FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
                     </StackPanel>
                 </Grid>
-            </Border>
+            </Button>
+
+
+
 
             <!-- Manage Suppliers -->
-            <Border Style="{StaticResource DashboardCardStyle}" Grid.Column="3" Cursor="Hand">
+            <Button Style="{StaticResource DashboardCardButtonStyle}" Grid.Column="3" Click="ManageSuppliers_Click">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -403,16 +412,23 @@
 
                     <Border Width="50" Height="50" Background="#E6FFFA" CornerRadius="8">
                         <TextBlock Text="&#xE716;" FontFamily="Segoe MDL2 Assets" Foreground="#319795" 
-                                   FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+               FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </Border>
 
                     <StackPanel Grid.Row="1" Margin="0,15,0,0">
                         <TextBlock Text="إدارة الموردين" FontWeight="SemiBold" Foreground="#2D3748" FontSize="16"/>
                         <TextBlock Text="عرض وتعديل بيانات الموردين" Foreground="#6E7A8A" 
-                                   FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
+               FontSize="12" Margin="0,5,0,0" TextWrapping="Wrap"/>
                     </StackPanel>
                 </Grid>
-            </Border>
+            </Button>
+
+
+
         </Grid>
+
+
     </Grid>
+
+
 </Page>

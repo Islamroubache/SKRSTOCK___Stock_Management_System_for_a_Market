@@ -28,3 +28,10 @@ C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\StockManagementApp.csproj.Gen
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\StockManagementApp.csproj.CoreCompileInputs.cache
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\SkrStock.exe
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\SkrStock.pdb
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.IconPacks.Core.dll
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.IconPacks.Material.dll
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.IconPacks.Core.xml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.IconPacks.Material.xml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\StockMan.EC9BCD68.Up2Date
+C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\pages\ClientsPage.g.cs
+C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\pages\ClientsPage.baml

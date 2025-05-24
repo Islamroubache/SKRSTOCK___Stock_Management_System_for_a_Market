@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SkrStock.pages;
 using StockManagementApp.pages;
 
 namespace StockManagementApp
@@ -36,7 +37,8 @@ namespace StockManagementApp
                 btnOrders,
                 btnSuppliers,
                 btnReports,
-                btnSettings
+                btnSettings,
+                btnClients
             };
 
             // تحميل صفحة لوحة التحكم افتراضياً
@@ -59,22 +61,8 @@ namespace StockManagementApp
             this.WindowState = WindowState.Minimized;
         }
 
-        private void btnRestore_Click(object sender, RoutedEventArgs e)
-        {
-            if (this.WindowState == WindowState.Maximized)
-            {
-                this.WindowState = WindowState.Normal;
-                restoreIcon.Text = "\uE923"; // رمز التكبير
-            }
-            else
-            {
-                this.WindowState = WindowState.Maximized;
-                restoreIcon.Text = "\uE922"; // رمز الاستعادة
-            }
-        }
-
-        // تحديث حالة أزرار القائمة
-        private void UpdateMenuButtonsState(Button activeButton)
+        // تحديث حالة أزرار القائمة - Made public so DashboardPage can access it
+        public void UpdateMenuButtonsState(Button activeButton)
         {
             foreach (var button in menuButtons)
             {
@@ -124,6 +112,12 @@ namespace StockManagementApp
         {
             UpdateMenuButtonsState(btnSettings);
             frameContent.Navigate(new SettingsPage());
+        }
+
+        private void ClientsButton_Click(object sender, RoutedEventArgs e)
+        {
+            UpdateMenuButtonsState(btnClients);
+            frameContent.Navigate(new ClientsPage());
         }
 
         private void frameContent_Navigated(object sender, NavigationEventArgs e)

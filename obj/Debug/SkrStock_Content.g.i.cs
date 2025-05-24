@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("pages/home.xml")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/1.svg")]
 
 
