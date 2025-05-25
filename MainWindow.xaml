@@ -198,13 +198,13 @@
             <!-- Main Content Area -->
             <Border
                 Grid.Column="1"
-                Grid.Row="1"
-                Margin="10,15,20,30"
-                BorderThickness="2"
-                BorderBrush="#2DB1A9"
-                CornerRadius="15"
-                Background="#F8Ffff">
-                <Frame x:Name="frameContent" NavigationUIVisibility="Hidden" Margin="10" />
+Grid.Row="1"
+Margin="10,15,20,30"
+BorderThickness="2"
+BorderBrush="#2DB1A9"
+CornerRadius="15"
+Background="#F8Ffff">
+                <Frame x:Name="frameContent" NavigationUIVisibility="Hidden" Margin="3"  />
             </Border>
         </Grid>
     </Border>

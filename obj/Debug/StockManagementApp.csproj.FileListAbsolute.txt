@@ -35,3 +35,13 @@ C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.IconPacks.Mater
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\StockMan.EC9BCD68.Up2Date
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\pages\ClientsPage.g.cs
 C:\Users\iroub\OneDrive\Desktop\SkrStock\obj\Debug\pages\ClientsPage.baml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\ControlzEx.dll
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.dll
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\ControlzEx.pdb
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\ControlzEx.xml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.pdb
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\MahApps.Metro.xml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\iroub\OneDrive\Desktop\SkrStock\bin\Debug\de\MahApps.Metro.resources.dll

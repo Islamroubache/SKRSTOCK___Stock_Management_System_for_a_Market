@@ -3,43 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\inventorypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -47,7 +66,7 @@
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\inventorypage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\clientspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,11 +77,11 @@
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\clientspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
@@ -70,7 +89,7 @@
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\reportspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|c:\\users\\iroub\\onedrive\\desktop\\skrstock\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|StockManagementApp.csproj|solutionrelative:pages\\reportspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -118,16 +137,8 @@
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\settingspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\productspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\orderspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|solutionrelative:pages\\productspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABAF2A67-1B7E-431C-A0A5-2FE395456AB4}|SkrStock.csproj|C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\orderspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -157,11 +168,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\ProductsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml.cs",
+              "RelativeToolTip": "pages\\ProductsPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T00:06:34.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\ProductsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
+              "RelativeToolTip": "pages\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-25T00:04:37.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-24T13:35:54.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\ProductsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
+              "RelativeToolTip": "pages\\ProductsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T16:23:54.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAiwGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:18:28.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "InventoryPage.xaml",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml",
               "RelativeDocumentMoniker": "pages\\InventoryPage.xaml",
@@ -173,43 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InventoryPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml",
-              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml",
-              "RelativeToolTip": "pages\\InventoryPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:23:31.369Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
-              "RelativeToolTip": "pages\\DashboardPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-24T13:58:57.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventoryPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
-              "RelativeToolTip": "pages\\InventoryPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:28:24.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
@@ -221,45 +256,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
               "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T17:59:45.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T17:59:45.738Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAiwH8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:18:28.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
-              "RelativeToolTip": "pages\\DashboardPage.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:28:24.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -267,263 +275,23 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:06:45.919Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-24T13:35:54.117Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventoryPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
-              "RelativeToolTip": "pages\\InventoryPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:32:24.383Z"
+              "WhenOpened": "2025-05-23T18:06:45.919Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "ClientsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\ClientsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml.cs",
-              "RelativeToolTip": "pages\\ClientsPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T16:40:00.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WpfXamlLoader.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
-              "ToolTip": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
-              "ViewState": "AgIAAGIAAAAAAAAAAAAlwHcAAAADAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:01:31.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
-              "RelativeToolTip": "pages\\DashboardPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T16:28:13.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ClientsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml",
-              "RelativeDocumentMoniker": "pages\\ClientsPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml",
-              "RelativeToolTip": "pages\\ClientsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-24T16:39:36.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ReportsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
-              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
-              "RelativeToolTip": "pages\\ReportsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-24T15:28:24.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ReportsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
-              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
-              "RelativeToolTip": "pages\\ReportsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:25:18.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ReportsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
-              "RelativeToolTip": "pages\\ReportsPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:28:24.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReportsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
-              "RelativeToolTip": "pages\\ReportsPage.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:00:41.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "DashboardPage.xaml",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
               "RelativeDocumentMoniker": "pages\\DashboardPage.xaml",
               "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
               "RelativeToolTip": "pages\\DashboardPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:22:12.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-23T17:12:10.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "SettingsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
-              "RelativeToolTip": "pages\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:00:57.618Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "SettingsPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
-              "RelativeToolTip": "pages\\SettingsPage.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T18:02:27.944Z",
+              "WhenOpened": "2025-05-24T13:58:57.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T15:19:53.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-22T15:18:29.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:20:10.623Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "SuppliersPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml",
-              "RelativeDocumentMoniker": "pages\\SuppliersPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml",
-              "RelativeToolTip": "pages\\SuppliersPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:24:50.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "SuppliersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\SuppliersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml.cs",
-              "RelativeToolTip": "pages\\SuppliersPage.xaml.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:01:27.567Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "SettingsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml",
-              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml",
-              "RelativeToolTip": "pages\\SettingsPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:25:53.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrdersPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\OrdersPage.xaml.cs",
-              "RelativeDocumentMoniker": "pages\\OrdersPage.xaml.cs",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\OrdersPage.xaml.cs",
-              "RelativeToolTip": "pages\\OrdersPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:00:23.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 3,
               "Title": "ProductsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml.cs",
               "RelativeDocumentMoniker": "pages\\ProductsPage.xaml.cs",
@@ -535,18 +303,288 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "ProductsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
-              "RelativeDocumentMoniker": "pages\\ProductsPage.xaml",
-              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ProductsPage.xaml",
-              "RelativeToolTip": "pages\\ProductsPage.xaml",
+              "DocumentIndex": 13,
+              "Title": "InventoryPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml",
+              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml",
+              "RelativeToolTip": "pages\\InventoryPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-23T16:23:54.03Z"
+              "WhenOpened": "2025-05-23T16:23:31.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "pages\\InventoryPage.xaml.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAApwGUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:28:24.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "pages\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:28:24.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrameworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs",
+              "ToolTip": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\573b2880de378bcf441369c3a2498b47757341930a70040b33011a78e0c10adf\\FrameworkTemplate.cs [Read Only]",
+              "ViewState": "AgIAAAcDAAAAAAAAAAAQwB0DAAAAAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T23:58:34.268Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InventoryPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\InventoryPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\InventoryPage.xaml.cs",
+              "RelativeToolTip": "pages\\InventoryPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:32:24.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ClientsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\ClientsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml.cs",
+              "RelativeToolTip": "pages\\ClientsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T16:40:00.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WpfXamlLoader.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ToolTip": "C:\\Users\\iroub\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\c6a5a7f5f1f891b96e7ce20decdfb3b83d9ea38a008c3e03a9a2dc211cf459f6\\WpfXamlLoader.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAlwHcAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:01:31.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "pages\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T16:28:13.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ClientsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\ClientsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ClientsPage.xaml",
+              "RelativeToolTip": "pages\\ClientsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T16:39:36.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
+              "RelativeToolTip": "pages\\ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-24T15:28:24.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ReportsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml",
+              "RelativeToolTip": "pages\\ReportsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T16:25:18.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "pages\\ReportsPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T15:28:24.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ReportsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\ReportsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\ReportsPage.xaml.cs",
+              "RelativeToolTip": "pages\\ReportsPage.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:00:41.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "pages\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\DashboardPage.xaml",
+              "RelativeToolTip": "pages\\DashboardPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T16:22:12.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-23T17:12:10.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "pages\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:00:57.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "pages\\SettingsPage.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T18:02:27.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T15:19:53.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-22T15:18:29.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:20:10.623Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
+              "Title": "SuppliersPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml",
+              "RelativeDocumentMoniker": "pages\\SuppliersPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml",
+              "RelativeToolTip": "pages\\SuppliersPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T16:24:50.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SuppliersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\SuppliersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SuppliersPage.xaml.cs",
+              "RelativeToolTip": "pages\\SuppliersPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAvwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:01:27.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "pages\\SettingsPage.xaml",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\SettingsPage.xaml",
+              "RelativeToolTip": "pages\\SettingsPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-23T16:25:53.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrdersPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\OrdersPage.xaml.cs",
+              "RelativeDocumentMoniker": "pages\\OrdersPage.xaml.cs",
+              "ToolTip": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\OrdersPage.xaml.cs",
+              "RelativeToolTip": "pages\\OrdersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:00:23.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "OrdersPage.xaml",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\pages\\OrdersPage.xaml",
               "RelativeDocumentMoniker": "pages\\OrdersPage.xaml",
@@ -557,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "SuppliersPage.g.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\obj\\Debug\\pages\\SuppliersPage.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\pages\\SuppliersPage.g.cs",
@@ -565,12 +603,11 @@
               "RelativeToolTip": "obj\\Debug\\pages\\SuppliersPage.g.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAEwCoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:02:51.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T17:02:51.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "ReportsPage.g.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\obj\\Debug\\pages\\ReportsPage.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\pages\\ReportsPage.g.cs",
@@ -578,12 +615,11 @@
               "RelativeToolTip": "obj\\Debug\\pages\\ReportsPage.g.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAEwCgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:02:46.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T17:02:46.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "OrdersPage.g.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\obj\\Debug\\pages\\OrdersPage.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\pages\\OrdersPage.g.cs",
@@ -591,12 +627,11 @@
               "RelativeToolTip": "obj\\Debug\\pages\\OrdersPage.g.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAEwDEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-23T17:02:41.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-23T17:02:41.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "MainWindow.g.cs",
               "DocumentMoniker": "C:\\Users\\iroub\\OneDrive\\Desktop\\SkrStock\\obj\\Debug\\MainWindow.g.cs",
               "RelativeDocumentMoniker": "obj\\Debug\\MainWindow.g.cs",
@@ -604,8 +639,7 @@
               "RelativeToolTip": "obj\\Debug\\MainWindow.g.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAEwE8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T15:34:58.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T15:34:58.698Z"
             }
           ]
         }
